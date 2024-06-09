@@ -1,0 +1,5 @@
+diagrams
+streamlit
+openai
+google-generativeai
+graphviz
