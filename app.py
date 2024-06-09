@@ -160,8 +160,8 @@ if st.session_state["authenticated"]:
                 "file_name": file_name + "_" + user_id
             }
             st.session_state["input_data"] = input_data
-            # st.session_state["output"] = LLMInference().run_inference_openai(input_data)   # OpenAI inference
-            st.session_state["output"] = LLMInference().run_inference_openai(input_data)   # Google gemini inference     
+            st.session_state["output"] = LLMInference().run_inference_openai(input_data)   # OpenAI inference
+            # st.session_state["output"] = LLMInference().run_inference_openai(input_data)   # Google gemini inference     
             st.session_state["submitted"] = True
 
         # Display generated PNG and provide options if submitted
