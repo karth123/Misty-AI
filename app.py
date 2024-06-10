@@ -128,6 +128,10 @@ window.addEventListener('beforeunload', function (event) {
 st.title("MistyAI CloudArch Designer")
 update_interaction()
 
+#LOGO
+logo_image = "logo.jpg"
+st.logo(logo_image)
+
 # Supported cloud providers
 cloud_providers = ["AWS", "Azure", "Google Cloud", "IBM Cloud", "Oracle Cloud"]
 
