@@ -225,3 +225,4 @@ cleanup_thread.start()
 
 # Check idle time
 check_idle_time()
+st.link_button("Join our Discord Server", "https://discord.gg/6Jz79xKdPE", help=None, type="secondary", disabled=False, use_container_width=False)
